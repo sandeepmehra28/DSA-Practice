@@ -1,3 +1,6 @@
 # DSA-Practice
 This is my DSA-Practice Repository 
-Author-Sandeep mehra
+<br>
+Author-Sandeep mehra(coding)
+<br>
+and this is my first project
