@@ -11,18 +11,20 @@ public class Find_Element_Infinite_Array {
     static int[] findRangeInInfiniteArray(int arr[], int target){
         int range[] = new int[2];
 
-        int start = 0;
-        int end = 1;
+        int start = 0;//starting index
+        int end = 1;//last index
 
+        //end is less then your target : condition true
         while(arr[end]<target){
-            start = end;
-            end = 2*end;
+            start = end;//start update
+            end = 2*end;//end update by *2
         }
         range[0] = start;
         range[1] = end;
 
         return range;
     }
+    //In this method find the target element int return the index
     static int binarySearch(int [] arr,int target, int start, int end){
         while(start<=end){
             int mid = start+(end-start)/2;
