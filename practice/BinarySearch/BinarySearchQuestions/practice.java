@@ -1,5 +1,5 @@
 package BinarySearch.BinarySearchQuestions;
-
+// this file only use for previous question practice 
 public class practice {
     public static void main(String[] args) {
         System.out.println("this is my practice file");
