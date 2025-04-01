@@ -23,7 +23,7 @@ public class Allocate_Minimum_Pages {
         int res = -1;
         while (start<=end){
             int mid = start+(end-start)/2;
-            if(isAllocationProssible(books,mid,students)){
+            if(isAllocationPossible(books,mid,students)){
                 res = mid;
                 end = mid-1;
             }else {
@@ -33,7 +33,7 @@ public class Allocate_Minimum_Pages {
         return res;
     }
 
-     static boolean isAllocationProssible(int[] books, int maxPages, int students) {
+     static boolean isAllocationPossible(int[] books, int maxPages, int students) {
         int currentStudents = 1;
         int pages  =0;
          for (int i = 0; i < books.length; i++) {
